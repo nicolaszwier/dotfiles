@@ -17,14 +17,14 @@ fi
 # Brew apps :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 msg_install "Installing apps with brew"
 brew=(
-  "rbenv"
+  # "rbenv"
   "git"
-  "hub"
+  # "hub"
 )
 
-msg_install "Setting up pip and awscli"
-sudo easy_install pip
-pip install awscli --upgrade --user
+# msg_install "Setting up pip and awscli"
+# sudo easy_install pip
+# pip install awscli --upgrade --user
 
 # NVM :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 msg_install "Installing NVM"
