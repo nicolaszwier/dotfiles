@@ -15,7 +15,6 @@ cask=(
   "notion"
   "brave-browser"
   "nordvpn"
-  # "psequel"
 )
 
 for app in "${cask[@]}"; do
