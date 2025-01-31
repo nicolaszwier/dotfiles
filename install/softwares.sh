@@ -8,16 +8,14 @@ brew cask
 
 cask=(
   "google-chrome"
-  "firefox"
   "iterm2"
   "visual-studio-code"
-  "psequel"
-  "transmission"
-  "stremio"
-  "spotify"
-  "coconutbattery"
-  "zoomus"
-  "handbrake"
+  "github"
+  "apidog"
+  "notion"
+  "brave-browser"
+  "nordvpn"
+  # "psequel"
 )
 
 for app in "${cask[@]}"; do
